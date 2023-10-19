@@ -1,3 +1,5 @@
 <StackLayout>
-    <Label text="Take a walk Every Day!!"></Label>
+    <TextField hint='Type here and look below' [(ngModel)]='typeText'></TextField>
+    <Label text="Hello Vinay Gandhi"></Label>
+    <Label [text]='typeText'></Label>
 </StackLayout>
