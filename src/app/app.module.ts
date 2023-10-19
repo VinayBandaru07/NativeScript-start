@@ -3,12 +3,13 @@ import { NativeScriptFormsModule, NativeScriptModule } from '@nativescript/angul
 
 
 import { AppComponent } from './app.component'
-import {CurrentChallengeComponent} from './challenges/current-challenge/current-challenge.component'
+import {CurrentChallengeComponent} from './challenges/current-challenge/current-challenge.component';
+import { StackComponent } from './layouts/stack/stack.component'
 
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, NativeScriptFormsModule],
-  declarations: [AppComponent, CurrentChallengeComponent],
+  declarations: [AppComponent, CurrentChallengeComponent, StackComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
 })
